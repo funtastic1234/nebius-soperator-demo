@@ -1,4 +1,4 @@
-# Nebius Soperator Tutorial: From Zero to Hero
+# Nebius Soperator Tutorial
 ## A Complete Guide for Beginners
 
 **Welcome!** This tutorial will teach you everything about deploying and using Nebius Soperator for distributed machine learning. Even if you've never used these tools before, by the end you'll understand everything!
