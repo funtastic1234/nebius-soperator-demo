@@ -1,6 +1,11 @@
 # Sensitive credentials
+# Exclude .sh files EXCEPT helper scripts
 *.sh
-!*.md
+!FINAL_DEPLOYMENT_AND_EXECUTION.sh
+!PUSH_TO_GITHUB.sh
+!soperator/installations/demo/training/*.sh
+!soperator/installations/demo/inference/*.sh
+!soperator/installations/demo/comparison/*.sh
 ~/.nebius_encrypted_credentials.sh
 .envrc
 *.tfvars
