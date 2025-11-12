@@ -1,0 +1,37 @@
+# Sensitive credentials
+*.sh
+!*.md
+~/.nebius_encrypted_credentials.sh
+.envrc
+*.tfvars
+*.tfstate
+*.tfstate.*
+
+# Terraform
+.terraform/
+.terraform.lock.hcl
+terraform.tfplan
+
+# Logs
+*.log
+/tmp/
+
+# OS files
+.DS_Store
+*.swp
+*.swo
+
+# Backup files
+*.backup
+*.bak
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# But keep documentation and scripts (without secrets)
+!soperator/installations/demo/training/*.sh
+!soperator/installations/demo/inference/*.sh
+!soperator/installations/demo/comparison/*.sh
+!FINAL_DEPLOYMENT_AND_EXECUTION.sh
