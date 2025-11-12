@@ -40,3 +40,4 @@ __pycache__/
 !soperator/installations/demo/inference/*.sh
 !soperator/installations/demo/comparison/*.sh
 !FINAL_DEPLOYMENT_AND_EXECUTION.sh
+.github_token
