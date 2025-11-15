@@ -59,7 +59,7 @@ sbatch train_with_original_save.sh
 -  GPU utilization monitoring
 -  Full documentation and tutorials
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 nebius-assignment/
