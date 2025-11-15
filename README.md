@@ -2,7 +2,7 @@
 
 Complete solution for deploying and running distributed machine learning training jobs on Nebius Cloud using Soperator (Slurm on Kubernetes).
 
-## 🎯 What This Project Does
+##  What This Project Does
 
 This project demonstrates:
 - **Distributed Training:** Training AI models across 16x H100 GPUs
@@ -10,7 +10,7 @@ This project demonstrates:
 - **Infrastructure as Code:** Complete Terraform deployment
 - **Best Practices:** GPU utilization, resource management, monitoring
 
-## 📚 Documentation
+##  Documentation
 
 ### For Beginners
 - **[TUTORIAL_FOR_BEGINNERS.md](./TUTORIAL_FOR_BEGINNERS.md)** ⭐ Start Here!
@@ -35,7 +35,7 @@ This project demonstrates:
 - **[COMPLETE_WORKFLOW_SCRIPTS.md](./COMPLETE_WORKFLOW_SCRIPTS.md)**
   - Enhanced scripts documentation
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 - Terraform 1.8.5+
@@ -68,12 +68,12 @@ sbatch train_with_original_save.sh
 
 ## 📊 Key Features
 
-- ✅ 16x H100 GPUs with Fabric-6 Infiniband
-- ✅ Separate filesystems for training/inference
-- ✅ Automatic model preservation (original + trained)
-- ✅ Complete comparison workflow
-- ✅ GPU utilization monitoring
-- ✅ Full documentation and tutorials
+- 16x H100 GPUs with Fabric-6 Infiniband
+-  Separate filesystems for training/inference
+-  Automatic model preservation (original + trained)
+-  Complete comparison workflow
+-  GPU utilization monitoring
+-  Full documentation and tutorials
 
 ## 📁 Project Structure
 
@@ -90,7 +90,7 @@ nebius-assignment/
 └── README.md                           # This file
 ```
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 - **Terraform:** Infrastructure as Code
 - **Kubernetes:** Container orchestration
@@ -99,14 +99,14 @@ nebius-assignment/
 - **NCCL:** GPU communication
 - **Nebius Cloud:** GPU cloud provider
 
-## 📝 License
+##  License
 
 This project is for educational/demonstration purposes.
 
-## 🤝 Contributing
+##  Contributing
 
 This is a demonstration project. Feel free to use it as a learning resource!
 
-## 📞 Support
+## Support
 
 See [TUTORIAL_FOR_BEGINNERS.md](./TUTORIAL_FOR_BEGINNERS.md) for detailed explanations and troubleshooting.
