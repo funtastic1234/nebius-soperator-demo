@@ -21,7 +21,7 @@ brew install terraform kubectl yq jq
 
 ## Step 1: Get Nebius Credentials
 
-**🎯 EASIEST WAY: Run the interactive script:**
+** EASIEST WAY: Run the interactive script:**
 ```bash
 cd /Users/admin/Desktop/nebius-assignment
 ./get-credentials.sh
@@ -350,7 +350,7 @@ cd /opt/demo/comparison && python3 compare_models.py ...
 
 ## Important Notes
 
-- ⚠️ **DO NOT DESTROY** the lab environment
+-  **DO NOT DESTROY** the lab environment
 - ✓ Use **fabric-6** for GPU cluster
 - ✓ Set **public_o11y_enabled = false**
 - ✓ Use **separate filesystems** for training and inference
