@@ -12,22 +12,6 @@ This project demonstrates:
 
 ##  Documentation
 
-### For Beginners
-- **[TUTORIAL_FOR_BEGINNERS.md](./TUTORIAL_FOR_BEGINNERS.md)** ⭐ Start Here!
-  - Complete beginner-friendly tutorial
-  - Explains all concepts from scratch
-  - Problems faced and solutions
-  - Zero to hero guide
-
-### For Demo/Presentation
-- **[DEMO_POWERPOINT_PRESENTATION.md](./DEMO_POWERPOINT_PRESENTATION.md)**
-  - 20-slide presentation
-  - Ready to convert to PowerPoint
-
-- **[DEMO_WALKTHROUGH_STEP_BY_STEP.md](./DEMO_WALKTHROUGH_STEP_BY_STEP.md)**
-  - 60-minute demo script
-  - Exact commands and talking points
-
 ### Technical Documentation
 - **[COMPLETE_DEPLOYMENT_GUIDE.md](./COMPLETE_DEPLOYMENT_GUIDE.md)**
   - Full deployment instructions
@@ -66,7 +50,7 @@ cd /opt/demo/training
 sbatch train_with_original_save.sh
 ```
 
-## 📊 Key Features
+##  Key Features
 
 - 16x H100 GPUs with Fabric-6 Infiniband
 -  Separate filesystems for training/inference
@@ -107,6 +91,4 @@ This project is for educational/demonstration purposes.
 
 This is a demonstration project. Feel free to use it as a learning resource!
 
-## Support
 
-See [TUTORIAL_FOR_BEGINNERS.md](./TUTORIAL_FOR_BEGINNERS.md) for detailed explanations and troubleshooting.
