@@ -1,8 +1,8 @@
 # Nebius Soperator Assignment - Complete Solution
 
-## 🎯 Assignment Completion Status
+##  Assignment Completion Status
 
-### ✅ COMPLETED
+###  COMPLETED
 
 1. **Infrastructure Setup**
    - Kubernetes cluster deployed
@@ -11,18 +11,18 @@
    - All configuration requirements met
 
 2. **Documentation & Presentation**
-   - ✅ Complete PowerPoint presentation (20 slides)
-   - ✅ Detailed step-by-step demo walkthrough
-   - ✅ Enhanced workflow scripts
-   - ✅ Complete comparison workflow
+   -  Complete PowerPoint presentation (20 slides)
+   -  Detailed step-by-step demo walkthrough
+   -  Enhanced workflow scripts
+   -  Complete comparison workflow
 
 3. **Scripts & Workflows**
-   - ✅ Training script that saves original model first
-   - ✅ Inference scripts for both models
-   - ✅ Complete comparison workflow
-   - ✅ GPU monitoring scripts
+   -  Training script that saves original model first
+   -  Inference scripts for both models
+   -  Complete comparison workflow
+   -  GPU monitoring scripts
 
-### ⏳ TO EXECUTE
+### TO EXECUTE
 
 1. **Complete Terraform Deployment**
    - Run: `./FINAL_DEPLOYMENT_AND_EXECUTION.sh`
@@ -34,7 +34,7 @@
    - Run training job
    - Run comparison workflow
 
-## 📁 Key Files
+##  Key Files
 
 ### Presentation & Documentation
 - **DEMO_POWERPOINT_PRESENTATION.md** - Complete 20-slide presentation
@@ -51,7 +51,7 @@
 - **WHATS_LEFT.md** - Remaining tasks
 - **ASSIGNMENT_STATUS.md** - Current status
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Option 1: Automated (Recommended)
 ```bash
@@ -69,7 +69,7 @@ terraform init -reconfigure
 terraform apply -auto-approve
 ```
 
-## 📊 Presentation Materials
+##  Presentation Materials
 
 The PowerPoint presentation is ready in Markdown format:
 - **File:** `DEMO_POWERPOINT_PRESENTATION.md`
@@ -87,7 +87,7 @@ Complete step-by-step guide:
 - **Duration:** ~60 minutes
 - **Includes:** Exact commands, what to say, troubleshooting
 
-## ✨ Key Features
+##  Key Features
 
 ### Model Comparison Workflow
 1. **Save Original Model** - Before training starts
@@ -101,14 +101,14 @@ Complete step-by-step guide:
 - Monitoring: Real-time scripts included
 - Verification: During training and demo
 
-## 📝 Notes
+##  Notes
 
 - Terraform 1.8.5 required (for provider::units:: syntax)
 - Both models preserved for comparison
 - All results stored separately
 - Complete workflow documented
 
-## 🆘 Support
+##  Support
 
 For issues or questions:
 1. Check `DEMO_WALKTHROUGH_STEP_BY_STEP.md` troubleshooting section
