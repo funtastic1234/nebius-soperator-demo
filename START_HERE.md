@@ -1,32 +1,32 @@
-# 🚀 START HERE - Complete Solution Deployment
+# START HERE - Complete Solution Deployment
 
 Welcome! This guide will walk you through deploying and executing the complete Nebius Soperator demo solution.
 
-## 📋 What You Have
+##  What You Have
 
-✅ **Complete Terraform Configuration**
+ **Complete Terraform Configuration**
 - 2 nodes × 8 H100s = 16 GPUs total
 - fabric-6 configured
 - public_o11y_enabled = false
 - Separate filesystems for training and inference
 
-✅ **Training Scripts**
+ **Training Scripts**
 - Distributed training job
 - Fine-tuning example
 
-✅ **Inference Scripts**
+ **Inference Scripts**
 - Trained model inference
 - Original model inference
 
-✅ **Comparison & Monitoring**
+ **Comparison & Monitoring**
 - Model comparison script
 - GPU utilization monitoring
 
-## 🎯 Quick Start (3 Steps)
+##  Quick Start (3 Steps)
 
 ### Step 1: Get Nebius Credentials
 
-**🎯 EASIEST: Run the interactive script:**
+** EASIEST: Run the interactive script:**
 ```bash
 cd /Users/admin/Desktop/nebius-assignment
 ./get-credentials.sh
@@ -103,7 +103,7 @@ After deployment:
    /opt/demo/execute-workflows.sh
    ```
 
-## 📚 Detailed Guides
+##  Detailed Guides
 
 - **[COMPLETE_DEPLOYMENT_GUIDE.md](./COMPLETE_DEPLOYMENT_GUIDE.md)** - Full step-by-step guide
 - **[demo-workflows.md](./demo-workflows.md)** - Workflow execution details
@@ -114,7 +114,7 @@ After deployment:
 - **terraform.tfvars** - Main configuration (already configured with your SSH key)
 - **.envrc** - Environment setup (auto-configures service accounts, VPC, etc.)
 
-## ✅ Requirements Checklist
+##  Requirements Checklist
 
 - [x] 16x H100s (2 nodes × 8 GPUs)
 - [x] fabric-6 for GPU cluster
@@ -125,13 +125,13 @@ After deployment:
 - [x] Model comparison script
 - [x] GPU utilization monitoring
 
-## 🆘 Need Help?
+##  Need Help?
 
 1. **Deployment issues?** See [COMPLETE_DEPLOYMENT_GUIDE.md](./COMPLETE_DEPLOYMENT_GUIDE.md)
 2. **Workflow issues?** See [demo-workflows.md](./demo-workflows.md)
 3. **Quick commands?** See [QUICK_REFERENCE.md](./QUICK_REFERENCE.md)
 
-## 🎬 Let's Start!
+##  Let's Start!
 
 Run the deployment script and follow the prompts:
 
@@ -143,5 +143,5 @@ Or follow the manual steps in [COMPLETE_DEPLOYMENT_GUIDE.md](./COMPLETE_DEPLOYME
 
 ---
 
-**Remember:** Keep the environment running for demo day! 🎉
+**Remember:** Keep the environment running for demo day! 
 
